@@ -1,0 +1,278 @@
+/* Grid styling */
+/* Credit to rachelbaker*/
+html { 
+    font-family: Arial;
+    color: white;
+    background-color: #4890BB; 
+    background-image: 
+      -webkit-linear-gradient(0deg, transparent .05em, rgba(225,225,225, .2) .05em, rgba(225,225,225, .2) .125000em, transparent .125000em),
+      -webkit-linear-gradient(rgba(225,225,225, .2) .062500em, transparent .062500em);
+    background-image: 
+      -moz-linear-gradient(0deg, transparent .05em, rgba(225,225,225, .2) .05em, rgba(225,225,225, .2) .125000em, transparent .125000em),
+      -moz-linear-gradient(rgba(225,225,225, .2) .062500em, transparent .062500em);
+    background-image: 
+      -ms-linear-gradient(0deg, transparent .05em, rgba(225,225,225, .2) .05em, rgba(225,225,225, .2) .125000em, transparent .125000em),
+      -ms-linear-gradient(rgba(225,225,225, .2) .062500em, transparent .062500em);
+    background-image: 
+      -o-linear-gradient(0deg, transparent .05em, rgba(225,225,225, .2) .05em, rgba(225,225,225, .2) .125000em, transparent .125000em),
+      -o-linear-gradient(rgba(225,225,225, .2) .062500em, transparent .062500em);
+    background-image: 
+      linear-gradient(0deg, transparent .05em, rgba(225,225,225, .2) .05em, rgba(225,225,225, .2) .125000em, transparent .125000em),
+      inear-gradient(rgba(225,225,225, .2) .062500em, transparent .062500em);
+    background-size: 1em 1em;  
+    background-position: 0 -0.5em; 
+}
+
+@font-face {
+  font-family: "Dense-Regular";
+  src: url("../Dense-Regular.otf");
+}
+
+body {
+  margin: 0px;
+}
+
+.date {
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.dense-regular {
+  font-family: Dense-Regular, Arial;
+}
+
+.font-border {
+    color: white;
+    text-shadow:
+     -1px -1px 0 #FFF,  
+      1px -1px 0 #FFF,
+     -1px 1px 0 #FFF,
+      1px 1px 0 #FFF;
+
+    color: #4890BB;
+    font-size: 48px;
+    letter-spacing: 6px;
+    font-weight: 200;
+}
+
+.gopitch {
+  position: relative;
+  margin: auto;
+  background-color: white;
+  color: #4890BB;
+  width: 200px;
+  letter-spacing: 3px;
+  font-size: 40px;
+  padding: 15px;
+}
+
+.here-box {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 5px 15px;
+  border: 4px white solid;
+}
+
+.icon {
+  width: 100%;
+  height: auto;
+}
+
+.icon-span {
+  font-weight: 800;
+}
+
+.icon-text {
+  font-size: 32px;
+  font-weight: 100;
+  width: 80%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.icon-wrapper {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+}
+
+.learn-more {
+  margin-top: 60px;
+  display: inline-block;
+}
+
+.logo-container {
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  position: relative;  
+  margin-top: 80px;
+  width: 500px;
+  height: auto;
+}
+
+.need-to-know {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 56px;
+  margin-bottom: 80px;
+}
+
+.small-margin {
+  margin: 5px;
+}
+
+.spark-logo {
+  position: relative;
+  margin: auto;
+  margin-top: 15px;
+  width: 180px;
+  height: auto;
+}
+
+.sponsors {
+  background-color: black;
+  width: 100%;
+  padding: 60px 0px;
+  /*height: 800px;*/
+}
+
+.take-a-look {
+  margin-top: 5px;
+  color: #9C9D9D;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+
+.upper-case {
+  text-transform: uppercase;
+}
+
+.video {
+  position: relative;
+  margin:auto;
+}
+
+.what-is {
+  font-size: 40px;
+  letter-spacing: 1px;
+  /*margin-bottom: 15px;*/
+  padding-top: 15px;
+  margin-bottom: 0px;
+}
+
+.white-block {
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  color:black;
+  padding-bottom: 60px;
+}
+
+
+
+/* Sponsors */
+
+.upfront {
+  width: auto;
+  height: 100px;
+}
+
+.cb {
+  width: 300px;
+  height: auto;
+}
+
+.lloyd {
+  width: auto;
+  height: 100px;
+}
+
+.halcyon {
+  width: auto;
+  height: 100px;
+}
+
+.raytheon {
+  width: 300px;
+  height: auto;
+  margin-bottom: 80px;
+}
+
+.daqri {
+  width: 300px;
+  height: auto;
+  padding: 5px 25px;
+}
+
+.micro {
+  width: 300px;
+  height: auto;
+  padding: 20px;
+}
+
+.iya {
+  height: 100px;
+  padding: 5px 25px;
+}
+
+.bump {
+  margin-bottom: 25px;
+}
+
+.cornerstone {
+  width: 300px;
+  height: auto;
+  padding: 25px 25px;
+}
+
+.desinus {
+  width: 250px;
+  margin: auto;
+  padding: 25px 25px;
+  margin-bottom: 45px;
+}
+
+.sponsor {
+  width: auto;
+  height: 150px;
+  padding: 5px 25px;
+}
+
+
+
+/* Media Queries */
+@media only screen and (max-width:640px) {
+
+  .icon-wrapper {
+    width: 100%;
+  }
+
+  .icon-text {
+    margin-top: -20px;
+  }
+}
+
+@media only screen and (max-width:480px) {
+
+  .logo {
+    width: 300px;
+  }
+
+  .need-to-know {
+    font-size: 24px;
+  }
+
+  .here-box {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .font-border {
+    font-size: 36px;
+  }
+
+}
